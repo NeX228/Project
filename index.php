@@ -3,9 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>Project</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-<h1>Project</h1>
-<p>Проект</p>
+    <div class="page">
+      <?include "header.php"?>
+    </div>
   </body>
 </html>

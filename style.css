@@ -1,0 +1,18 @@
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #1b2c75;
+  -moz-background-size: 100%; /* Firefox 3.6+ */
+  -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+  -o-background-size: 100%; /* Opera 9.6+ */
+  background-size: 100%; /* Современные браузеры */
+}
+
+header{
+  display: flex;
+  background-color: rgba(130, 7, 7, 0.66);
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10%;
+}
