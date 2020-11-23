@@ -16,3 +16,23 @@ header{
   align-items: center;
   padding: 0px 10%;
 }
+a{
+  font-weight: 200;
+  text-decoration: none;
+  color: black;
+}
+.nav_link{
+  list-style: none;
+
+}
+.nav_link li{
+  display: inline-block;
+  padding: 0px, 20px;
+margin-right: 45px;
+}
+.nav_link li a{
+  margin: 20px;
+}
+.nav_link li a:hover{
+  color: rgb(15, 217, 178);
+}
