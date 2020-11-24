@@ -5,7 +5,7 @@ body{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color:black;
+  background-color:white;
   -moz-background-size: 100%; /* Firefox 3.6+ */
   -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
   -o-background-size: 100%; /* Opera 9.6+ */
@@ -13,15 +13,18 @@ body{
 }
 .page{
   width: auto;
-  height: 3000px;
+  height: 1000px;
+}
+.container{
+
 }
 header{
   width: 100%;
-      padding: 20 160px;
-      position:fixed;
-      top: 0;
-      left: 0;
-      z-index: 1000;
+  padding: 20 160px;
+  position:fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
   background-color:rgb(145, 36, 7);
 }
 .header_inner {
@@ -29,6 +32,10 @@ header{
     justify-content: space-between;
     padding: 30px ;
     align-items:right;
+}
+.header_size{
+  width: 100%;
+  padding: 20 160px;
 }
 a{
   font-weight: 200;
@@ -45,30 +52,4 @@ a{
     color: #bab8b8;
     margin-left: 50px;
     text-decoration: none;
-}
-.footer{
-  padding: 150px;
-  background-color: #1e2a4e ;
-  margin-top: auto;
-  position: relative;
-}
-.contact{
-  background-color:#131832;
-  position: absolute;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	height: 80px;
-}
-.contact p,  .contact a{
-  color: white;
-
-}
-.copyright{
-  text-decoration: none;
-
-font-size: 15px;
-text-align: center;
-border-top: 3px solid #fff;
-
 }

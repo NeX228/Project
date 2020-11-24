@@ -4,30 +4,35 @@
     <meta charset="utf-8">
     <title>Project</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="footer" href="footer.php">
   </head>
   <body>
     <div class="page">
       <?include "header.php"?>
+      <div class="block1">
+        <div class="text_block1">
+          <h1>Кальянные в Луганске</h1>
+        </div>
+        <div class="img_block1">
+          <div class="block1_size">
+          <img class="img_location" src="img/1.jpg" alt="Photo1">
+          </div>
+          <div class="block1_size">
+          <img class="img_location" src="img/2.jpg" alt="Photo2">
+          </div>
+          <div class="block1_size">
+          <img class="img_location" src="img/3.jpg" alt="Photo3">
+          </div>
+          <div class="block1_size">
+          <img class="img_location" src="img/4.jpg" alt="Photo4">
+          </div>
+          <div class="block1_size">
+          <img class="img_location" src="img/5.jpg" alt="Photo5">
+          </div>
+          <div class="block1_size">
+          <img class="img_location" src="img/6.jpg" alt="Photo6">
+          </div>
+        </div>
+      </div>
     </div>
-    <footer class="footer">
-  <div class="info">
-
-<ul>
-  <li>О создателях</li>
-  <li><p>Наши контакты</p></li>
-  <li><p>Лучшие кальянные</p></li>
-</ul>
-
-
-  </div>
-<div class="contact">
-
-
-<p>Email: <a href="zhuk-bogdan@bk.ru"</a>zhuk-bogdan@bk.ru</p>
-  <p>Номер телефона:+380500323298</p>
-    <p class="copyright">Copiryht by Bogdan Zhuk</p>
-    </div>
-</footer>
   </body>
 </html>
